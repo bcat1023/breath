@@ -26,7 +26,7 @@ if ('serviceWorker' in navigator) {
       // Capture the registration for later use, if needed
       let reg;
   
-      reg = await navigator.serviceWorker.register('/worker.js');
+      reg = await navigator.serviceWorker.register('/handoff/worker.js');
 
       console.log('Service Worker registered');
     } catch (err) {

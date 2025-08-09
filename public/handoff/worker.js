@@ -1,7 +1,7 @@
 // Choose a cache name
-const cacheName = 'Aug8th.v1';
+const cacheName = 'Aug9th';
 // List the files to precache
-const precacheResources = ['/', '/breathe.html', '/style.css', '/script.js', '/haptics.js', '/nudge.js', '/reminders.json', 'https://esm.sh/ios-haptics@0.1.0/es2022/ios-haptics.mjs', 'https://fonts.googleapis.com/css2?family=Nata+Sans:wght@100..900&display=swap', 'https://esm.sh/ios-haptics'];
+const precacheResources = ['/handoff/breathe.html', '/handoff/style.css', '/handoff/script.js', '/handoff/haptics.js', '/handoff/nudge.js', '/api/reminders.json', 'https://esm.sh/ios-haptics@0.1.0/es2022/ios-haptics.mjs', 'https://fonts.googleapis.com/css2?family=Nata+Sans:wght@100..900&display=swap', 'https://esm.sh/ios-haptics'];
 
 // When the service worker is installing, open the cache and add the precache resources to it
 self.addEventListener('install', (event) => {
