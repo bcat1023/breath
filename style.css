@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+    margin: 0;
+    font-family: "Nata Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+h1 {
+    font-weight: 600;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: -webkit-fill-available;
+    position: absolute;
+    width: -webkit-fill-available;
+}
+
+.brief {
+    opacity: 0;
+    transition: 5s;
+}
+
+.brief, h3, h4 {
+font-family: "Nata Sans", sans-serif;
+font-optical-sizing: auto;
+font-weight: 400;
+    font-style: normal;
+}

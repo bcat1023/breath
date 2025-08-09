@@ -1,0 +1,15 @@
+{
+    "reminders":{
+        "1": "Focus on what really matters: spending time with loved ones, finishing a project, or learning something new.",
+        "2": "How much time have you spent on this app today?",
+        "3": "Are you missing out on real-life moments while scrolling? Why not step away for a while?",
+        "4": "Do you need social media for your productivity today, or is it just a distraction?",
+        "5": "How do you feel after spending time on social media? Energized or drained?",
+        "6": "Every minute spent on social media is a minute not spent on your goals. What do you choose today?",
+        "7": "Remember: every 10 minutes of this app might cost you 30 minutes of focus. Stay intentional!",
+        "8": "After spending 30 minutes on this app, how do you feel about yourself? Does it build your confidence?"
+    },
+    "dice": {
+        "total": "8"
+    }
+}

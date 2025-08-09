@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Stop and breathe...</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nata+Sans:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<div class="container">
+    <h1>Stop and breathe for a moment...</h1>
+<h2 id="countdown">5</h2>
+<div class="brief">
+    <h3>Do you really want to open this app?</h3>
+    <h4 id="nudge">Think for a moment</h4>
+    <button id="closeButton"><a target="_blank" href="shortcuts://x-callback-url/run-shortcut?name=Breath&input=CloseButtonClicked">Close app</a></button>
+    <button id="openButton"><a id="openAddress" target="_blank" href="shortcuts://x-callback-url/run-shortcut?name=Breath&input=OpenButtonClicked/AppName">Open it</a></button>
+</div>
+</div>
+<script src="script.js"></script>
+<script type="module" src="haptics.js" ></script>
+<script type="module" src="nudge.js"></script>
+</body>
+
+</html>
