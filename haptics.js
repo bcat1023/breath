@@ -1,14 +1,16 @@
 import { haptic } from "https://esm.sh/ios-haptics";
 
-document.getElementById('closeButton').addEventListener('click', function() {
-    haptic()
+function close() {
     setTimeout(() => {
         window.close()
-    }, 1000);
+    }, 2000);
+}
+
+document.getElementById('closeButton').addEventListener('click', function () {
+    haptic()
+    close()
 });
-document.getElementById('openButton').addEventListener('click', function() {
+document.getElementById('openButton').addEventListener('click', function () {
     haptic()
-    setTimeout(() => {
-        window.close()
-    }, 1000);
+    close()
 });

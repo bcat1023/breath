@@ -28,7 +28,7 @@ if ('serviceWorker' in navigator) {
   
       reg = await navigator.serviceWorker.register('/worker.js');
 
-      console.log('Service Worker registered', reg);
+      console.log('Service Worker registered');
     } catch (err) {
       console.log('Service worker registration failed!!! Application will NOT be available offline!!!: ', err);
     }

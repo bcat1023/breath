@@ -1,14 +1,18 @@
 <!DOCTYPE html>
-
+<html lang="en-US">
 <head>
-    <title>Stop and breathe...</title>
     <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://esm.sh">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Nata+Sans:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta http-equiv="Content-Security-Policy" content="script-src breathe.nookalley.com esm.sh 'self'">
+    <meta http-equiv="Strict-Transport-Security" content="max-age=63072000; includeSubDomains; preload">
+    <meta http-equiv="Cross-Origin-Opener-Policy" content="same-origin">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="modulepreload" href="https://esm.sh/ios-haptics@0.1.0/es2022/ios-haptics.mjs">
+    <link href="https://fonts.googleapis.com/css2?family=Nata+Sans:wght@100..900&display=swap" rel="stylesheet">
+    <title>Stop and breathe...</title>
 </head>
-
 <body>
 <div class="container">
     <h1>Stop and breathe for a moment...</h1>
@@ -20,9 +24,8 @@
     <button id="openButton"><a id="openAddress" target="_blank" href="shortcuts://x-callback-url/run-shortcut?name=Breath&input=OpenButtonClicked/AppName">Open it</a></button>
 </div>
 </div>
-<script src="script.js"></script>
-<script type="module" src="haptics.js" ></script>
-<script type="module" src="nudge.js"></script>
+<script src="script.js" defer></script>
+<script type="module" src="haptics.js" defer></script>
+<script type="module" src="nudge.js" defer></script>
 </body>
-
 </html>
